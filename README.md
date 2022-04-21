@@ -24,3 +24,4 @@ ps:用的别人的后台，没有管理员权限
 ### 配置 less
 
 - 因为是直接用脚手架搭建的项目，所以不能直接配置 webpack，需要先 eject
+- 在`config-〉webpack -〉webpack.config.js`里面找到sassModuleRegex
