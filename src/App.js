@@ -1,15 +1,12 @@
 import React from "react";
-import { Button } from "antd";
+import { Outlet } from "react-router-dom";
 
 export default function App() {
   return (
     <>
-      <Button type="primary">Primary Button</Button>
-      <Button>Default Button</Button>
-      <Button type="dashed">Dashed Button</Button>
-      <br />
-      <Button type="text">Text Button</Button>
-      <Button type="link">Link Button</Button>
+      app
+      {/* 3.4 这里写Outlet占位，意思就是App里面嵌套的所有子路由 */}
+      <Outlet />
     </>
   );
 }
